@@ -9,6 +9,14 @@
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto p-4">
+    @if ($errors->any())
+    <ul class="bg-red-400 text-white p-4 rounded-md">
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+     </ul>
+    @endif
+    <br>
         <h2 class="text-2xl font-semibold mb-4">Tambah Buku</h2>
         <form action="{{ route('buku.store') }}" method="POST">
             @csrf

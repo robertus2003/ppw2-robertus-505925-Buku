@@ -18,12 +18,12 @@
       <br>
         <h1 class="text-3xl font-semibold text-center mb-6 bg-gray-200 py-2">Daftar Buku</h1>
         <table class="w-full border-collapse border border-gray-300 bg-white shadow-md">
-            <thead class="bg-gray-200">
+            <!-- <thead class="bg-gray-200">
             <form action="{{ route('search') }}" method="GET">
             <div class="input-group">
              <input type="text" name="kata" class="form-control" placeholder="Cari buku...">
             <span class="input-group-btn">
-            <button class="btn btn-primary" type="submit">Cari</button>
+            <button class="btn btn-primary" type="submit">Cari</button> -->
             
              </span>
             </div>
